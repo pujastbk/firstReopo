@@ -10,10 +10,11 @@ eureka:
   
           
   datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
     url: jdbc:sqlserver://localhost;instance=SQLEXPRESS;encrypt=true;trustServerCertificate=true;database=empDatails
     username: satibhaski
     password: Puja@1234
-    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    
     
   jpa:
     hibernate:
